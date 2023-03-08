@@ -1,0 +1,47 @@
+.dropdown {
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    letter-spacing: 3px;
+    margin-left: 20rem;    
+    padding: 2px 20px;
+    border-right: 1px solid rgb(200, 196, 196);
+    font-weight: 700;    
+    position: relative;
+}
+
+.dropdown svg {
+    font-size: 2rem;   
+}
+
+.first-option-close {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    transition-duration: .3s;
+}
+
+span:hover{
+    transition-duration: .3s;
+    background-color: #6b8d807e;
+}
+
+.first-option-open svg {
+    transition-duration: .3s;
+    transform: rotate(180deg);
+}
+
+.options {
+    color: white;  
+    width: 135px;  
+    padding: 10px;
+    right: 0;
+    position: absolute;
+    background-color: rgb(58, 105, 99);
+    border-radius: 6px;
+}
+
+
+
+

@@ -1,0 +1,36 @@
+
+.contenedorEspufi {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: normal;
+}
+
+img {
+    width: 100%;
+}
+
+.imgColumna {
+    margin: 2px;
+}
+
+.contentImg {
+    margin-top: 6rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+}
+
+.contenedorEspufi h2 {
+    font-size: 4rem ;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorEspufi h3 {
+    font-size: 1.8rem ;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(132, 127, 127); 
+}

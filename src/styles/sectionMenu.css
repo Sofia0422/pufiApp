@@ -1,0 +1,74 @@
+
+
+.pufiAll {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pufiAll__image {
+    width: 100%;      
+}
+
+
+.pufiAll__content {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.imgLittle {
+    width: 15%;
+}
+
+h2{
+    font-size: 3rem;
+    padding: 0;   
+}
+
+.line {
+    margin-top: -30px;    
+    color: rgb(176, 171, 171);
+}
+
+p {
+    padding: 1rem 30rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal; 
+    color: rgb(90, 86, 86);
+}
+
+.btnShop1 {
+    height: 6.5rem;
+    width: 15rem;
+    color: white;
+    background-color: transparent;
+    border: 3px solid #ffff;
+    font-size: 2rem;
+    margin: 30rem 35rem ;
+    cursor: pointer;
+    position: absolute;
+    display:inline-block;
+    letter-spacing: 5px;
+}
+
+.btnShop1:hover {
+    background-color:#6b8d807e;
+    transition: 0.2s;    
+}
+
+.btnPufiAll{
+    margin-top: 2rem;
+    padding: 2rem;
+    border: none;
+    letter-spacing: 3px;
+    color: rgb(90, 86, 86);
+    cursor: pointer;
+}
+
+.btnPufiAll:hover {
+    background-color:#6b8d807e;
+    transition: 0.2s;    
+}
+
+
+

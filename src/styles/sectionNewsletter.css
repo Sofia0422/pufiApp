@@ -1,0 +1,47 @@
+.contentNews { 
+    line-height: normal;
+    margin-top: 7rem;   
+    text-align: center;
+}
+
+.contentNews h2 {
+    font-size: 4rem ;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.contentNews h3 {
+    font-size: 1.8rem ;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: rgb(132, 127, 127); 
+}
+
+.contentNews p {
+    margin: 0;
+    padding: 0;
+}
+
+.suscripcion {
+    margin-top: 4rem;
+    border: 1px solid rgb(52, 50, 50);
+    padding: 1rem;
+    width: max-content;
+    margin-left: 33%;
+    
+}
+
+.campoEmail {
+    border: none;
+    padding: 0.5rem;
+    width: 50rem;
+    font-weight: 400;
+    
+}
+
+.enviarForm {
+    border: none;
+    cursor: pointer;
+}
